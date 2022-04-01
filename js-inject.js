@@ -126,7 +126,7 @@ setInterval(writeAnswer,500)
 var con = setInterval(clickContinue,3000)
 var star = setInterval(clickStart,3000)
 
-alert('代码已加载')
+document.getElementsByClassName('with-computer')[0].innerText = '脚本已加载'
 
 var datiInter = setInterval(()=>{
     let max = getButtonNumber();
