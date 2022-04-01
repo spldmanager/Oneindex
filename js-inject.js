@@ -1,4 +1,1 @@
-window.onload = function(){
-  alert('test!')
-
-}
+alert('test!')
